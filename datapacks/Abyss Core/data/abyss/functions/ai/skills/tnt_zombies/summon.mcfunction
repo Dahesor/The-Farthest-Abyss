@@ -1,0 +1,5 @@
+summon zombie ~ ~ ~ {Tags:["zombie_tnt"],IsBaby:1b,ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"tnt",Count:1b}],Team:"monster",Health:6f}
+summon zombie ~ ~ ~ {Tags:["zombie_tnt"],IsBaby:1b,ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"tnt",Count:1b}],Team:"monster",Health:6f}
+summon zombie ~ ~ ~ {Tags:["zombie_tnt"],IsBaby:1b,ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"tnt",Count:1b}],Team:"monster",Health:6f}
+summon zombie ~ ~ ~ {Tags:["zombie_tnt"],IsBaby:1b,ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],ArmorItems:[{},{},{},{id:"tnt",Count:1b}],Team:"monster",Health:6f}
+summon zombie ~ ~ ~ {Tags:["zombie_tnt","tnt_x"],IsBaby:1b,ArmorDropChances:[0f,0f,0f,0f],Glowing:1b,ArmorItems:[{},{},{},{id:"tnt",Count:1b,tag:{Enchantments:[{}]}}],Team:"monster",Health:6f,ActiveEffects:[{Id:2,Amplifier:1b,Duration:999999,ShowParticles:0b}]}

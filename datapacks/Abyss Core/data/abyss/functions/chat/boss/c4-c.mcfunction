@@ -1,0 +1,1 @@
+data merge entity @e[type=item,tag=item_shown,limit=1] {Item:{id:"netherite_sword"}}

@@ -1,0 +1,1 @@
+execute at @e[type=iron_golem,tag=boss,limit=1] run particle dust 0.867 0.878 0.122 2.4 ~ ~4 ~ 0.3 0.3 0.3 0.01 60 force

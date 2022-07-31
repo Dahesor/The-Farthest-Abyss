@@ -1,0 +1,11 @@
+execute if entity @a[level=11] run xp add @a -1 points
+execute if entity @a[level=10] unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=9] unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=8] unless score $loop_20 calculator matches 8 unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=7] unless score $loop_20 calculator matches 8 unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=6] unless score $loop_20 calculator matches 4 unless score $loop_20 calculator matches 8 unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=5] unless score $loop_20 calculator matches 4 unless score $loop_20 calculator matches 8 unless score $loop_20 calculator matches 12 run xp add @a -1 points
+execute if entity @a[level=4] unless score $loop_20 calculator matches 3 unless score $loop_20 calculator matches 6 unless score $loop_20 calculator matches 8 unless score $loop_20 calculator matches 11 unless score $loop_20 calculator matches 13 run xp add @a -1 points
+execute if entity @a[level=3] if score $loop_3 calculator matches 1..2 run xp add @a -1 points
+execute if entity @a[level=1..2] if score $loop_2 calculator matches 1 run xp add @a -1 points
+execute if entity @a[level=0] if score $loop_3 calculator matches 1 run xp add @a -1 points

@@ -1,0 +1,1 @@
+execute at @e[type=iron_golem,tag=boss,limit=1] positioned ~ ~30 ~ run function abyss:ai/skills/side_tnt/summon_main

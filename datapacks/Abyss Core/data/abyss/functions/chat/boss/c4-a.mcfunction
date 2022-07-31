@@ -1,0 +1,1 @@
+execute at @e[type=item,tag=item_shown] run summon lightning_bolt

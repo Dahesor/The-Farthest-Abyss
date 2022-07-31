@@ -1,0 +1,1 @@
+execute at @e[type=iron_golem,tag=boss,limit=1] run function abyss:ai/skills/mid_strike/summon

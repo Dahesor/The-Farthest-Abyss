@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=esnipe_mark.boss] positioned ~3 ~1 ~3 run function abyss:ai/skills/tear_snipe/summon

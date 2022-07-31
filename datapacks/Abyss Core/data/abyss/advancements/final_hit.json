@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "hit_on":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_explosion": false,
+                        "is_projectile": false,
+                        "is_magic": false,
+                        "is_fire": false,
+                        "is_lightning": false
+                    }
+                },
+                "entity": {
+                    "type": "iron_golem",
+                    "nbt": "{Tags:['boss']}"
+                },
+                "player": {
+                    "nbt":"{Tags:['final.hurt_3']}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "abyss:sections/final/final_hit"
+    }
+}

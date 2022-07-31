@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{is_trigger:1b}}]}] run function abyss:mechanics/rush/reload

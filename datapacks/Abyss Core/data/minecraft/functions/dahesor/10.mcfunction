@@ -1,0 +1,1 @@
+function abyss:chat/boss/start

@@ -1,0 +1,42 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "flags": {
+                "is_sneaking": true
+            },
+            "location": {
+                "position": {
+                    "y": {
+                        "min":1
+                    }
+                }
+            }
+        }
+    },
+    {
+        "condition": "value_check",
+        "value": {
+            "type": "score",
+            "score": "player",
+            "target": {
+                "type": "fixed",
+                "name": "fall_distance"
+            }
+        },
+        "range": 0
+    },
+    {
+        "condition": "value_check",
+        "value": {
+            "type": "score",
+            "score": "player",
+            "target": {
+                "type": "fixed",
+                "name": "superjump_cooldown"
+            }
+        },
+        "range": 0
+    }
+]

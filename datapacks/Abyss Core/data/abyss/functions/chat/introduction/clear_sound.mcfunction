@@ -1,0 +1,1 @@
+stopsound @a master minecraft:ambient.soul_sand_valley.mood

@@ -1,0 +1,2 @@
+execute at @e[type=iron_golem,tag=boss,limit=1] run summon tnt ~ ~4 ~ {NoGravity:1b,Motion:[0.0d,1.3d,0.0d],Invulnerable:1b,Tags:["fake_tnt"],Fuse:40}
+execute at @e[type=iron_golem,tag=boss,limit=1] run playsound entity.tnt.primed master @a ~ ~ ~ 1 1 0.7

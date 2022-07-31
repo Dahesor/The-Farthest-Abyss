@@ -1,0 +1,22 @@
+{
+    "values": [
+        "#arrows",
+        "tnt",
+        "snowball",
+        "fireball",
+        "firework_rocket",
+        "small_fireball",
+        "potion",
+        "minecart",
+        "chest_minecart",
+        "furnace_minecart",
+        "hopper_minecart",
+        "spawner_minecart",
+        "command_block_minecart",
+        "boat",
+        "item",
+        "falling_block",
+        "wither_skull",
+        "llama_spit"
+    ]
+}

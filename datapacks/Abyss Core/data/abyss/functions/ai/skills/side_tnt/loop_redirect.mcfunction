@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=side_tnt_an.boss] at @s run function abyss:ai/skills/side_tnt/summon_loop

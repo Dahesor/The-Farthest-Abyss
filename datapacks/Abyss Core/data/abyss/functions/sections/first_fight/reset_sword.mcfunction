@@ -1,0 +1,2 @@
+clear @a iron_sword{sword200:1b}
+give @s iron_sword{Enchantments:[{id:"sharpness",lvl:1}],display:{Name:'{"text": "沉睡的利克欧斯米","color": "gold","italic": false}',Lore:['""','{"text": "具有正义之力的圣剑","color": "gray","italic": false}','{"text": "就算沉睡着也锋利无比","color": "gray","italic": false}']},sword200:1b,Unbreakable:1b}

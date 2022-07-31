@@ -1,0 +1,1 @@
+execute if score energy boss matches 640.. run function abyss:ai/phases/thrid_real

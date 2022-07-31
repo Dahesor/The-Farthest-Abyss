@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=temp123] positioned ~ ~1.5 ~ if entity @a[distance=..2] run function abyss:chat/boss_real/c1-1
